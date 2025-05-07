@@ -40,10 +40,6 @@ Training details:
 
 Trained using: model_training.ipynb
 
-Suggested improvements:
-- Increase dead cell samples
-- Use focal loss
-- Try pretrained models like MobileNet
 
 ---
 
@@ -76,30 +72,7 @@ Outputs:
 - Live/dead count summary
 - Optional: Save annotated image
 
-Run using: fov_classification.ipynb
 
----
-
-## Requirements
-
-Install required libraries:
-
-pip install tensorflow opencv-python matplotlib numpy tifffile
-
----
-
-## Folder Structure Example
-
-notebooks/
-├── model_training.ipynb
-└── fov_classification.ipynb
-
-models/
-└── astrocyte_live_dead_model.keras
-
-data/
-├── dead/
-└── live/
 
 ---
 
